@@ -1,0 +1,12 @@
+CREATE TABLE `tb_lokasi` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `lokasi` varchar(11) DEFAULT NULL,
+  `suhu` float DEFAULT NULL,
+  `lembab` float DEFAULT NULL,
+  `ups` varchar(11) DEFAULT NULL,
+  `power` varchar(11) DEFAULT NULL,
+  `solar` varchar(11) DEFAULT NULL,
+  `status` varchar(11) DEFAULT NULL,
+  `update_at` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
